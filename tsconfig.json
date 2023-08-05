@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": true,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "useUnknownInCatchVariables":false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
