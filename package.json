@@ -4,9 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node ./src/app/server.ts",
-    "start:dev": "node ./dist/app/server.ts",
-    "build": "rimraf ./dist && tsc -b",
+    "start": "ts-node-dev ./src/app/server.ts", 
+    "build": "rimraf ./dist && npx tsc -b",
     "knex-db-migrate-latest": "ts-node ./src/run-knex-migrate.ts",
     "knex-db-seed": "ts-node ./src/run-knex-seed.ts",
     "knex-migrate-make": "knex --knexfile src/knexfile.ts migrate:make -x ts"
